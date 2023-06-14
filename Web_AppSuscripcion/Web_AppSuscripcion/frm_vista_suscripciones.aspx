@@ -11,20 +11,32 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <center><h1>Mis suscripciones</h1></center>
+            <center><h1 class="h1">Mis suscripciones</h1></center>
             <center>
             <div class ="div2">
                 <br /><br />
                 <asp:TextBox ID="txt_ID" runat="server" Width="200px" CssClass="cajas" placeholder="Ingrese su identificación"></asp:TextBox>
-                <asp:Button ID="btn_Consultar" runat="server" Text="Consultar" CssClass="botones" Height="41" Width="136"/>
+                <asp:Button ID="btn_Consultar" runat="server" Text="Consultar" CssClass="bton_consultar" Width="152px"/>
                 <br />
-                <asp:DropDownList ID="cbx_paquetes" runat="server" CssClass="combo" Width="354px"></asp:DropDownList>
+                <asp:DropDownList ID="cbx_paquetes" runat="server" CssClass="combo">
+                </asp:DropDownList>
                 <br />
-                <asp:Button ID="btn_registrarPaquete" runat="server" Text="Registrar suscripción" CssClass="botones" Height="35" Width="352" />
+                <asp:Button ID="btn_registrarPaquete" runat="server" Text="Registrar suscripción" CssClass="botones" Height="34" Width="363" />
                 <br />
                 <hr />
                 <br />
-                <asp:GridView ID="dtg_suscripciones" runat="server" Width="350"></asp:GridView>
+                <asp:GridView ID="dtg_suscripciones" runat="server" Width="550px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical">
+                    <AlternatingRowStyle BackColor="White" />
+                    <FooterStyle BackColor="#CCCC99" />
+                    <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
+                    <RowStyle BackColor="#F7F7DE" />
+                    <SelectedRowStyle BackColor="#CE5D5A" Font-Bold="True" ForeColor="White" />
+                    <SortedAscendingCellStyle BackColor="#FBFBF2" />
+                    <SortedAscendingHeaderStyle BackColor="#848384" />
+                    <SortedDescendingCellStyle BackColor="#EAEAD3" />
+                    <SortedDescendingHeaderStyle BackColor="#575357" />
+                </asp:GridView>
             </div>
             </center>
         </div>
