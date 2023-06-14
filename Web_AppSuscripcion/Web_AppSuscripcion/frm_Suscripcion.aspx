@@ -11,11 +11,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <center><h1>Registro de suscripciones</h1></center>
-            <br />
+            <center><h1 class="h1">Registro de suscripciones</h1></center>
+            
             <center>
             <div class="div2">
-                <br /><br />
+                <br />
                 <asp:TextBox ID="txt_Id" runat="server" placeholder="Identificación" CssClass="cajas" Width="300px"></asp:TextBox>
                 <br />
                 <asp:TextBox ID="txt_Nombres" runat="server" placeholder="Nombres" CssClass="cajas" Width="300px"></asp:TextBox>
@@ -33,8 +33,8 @@
                 <asp:Button ID="btn_Registrar" runat="server" Text="Registrar" CssClass="botones" Width="310px" Height="35" OnClick="btn_Registrar_Click" />
                 <br />
                 <asp:Label ID="lbl_mensaje" runat="server" Text="" CssClass="label"></asp:Label>
-                <br /><br />
-                <asp:Button ID="btn_suscripciones" runat="server" Text="Mis Suscripciones" CssClass="botones_sus" Width="300px"/>
+                <br />
+                <asp:Button ID="btn_suscripciones" runat="server" Text="Mis Suscripciones" CssClass="botones_sus" Width="309px" PostBackUrl="~/frm_vista_suscripciones.aspx"/>
             </div>
             </center>
         </div>

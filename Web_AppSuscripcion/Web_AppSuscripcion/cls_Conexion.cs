@@ -8,6 +8,6 @@ namespace Web_AppSuscripcion
 {
     public class cls_Conexion
     {
-        public SqlConnection connection = new SqlConnection("Data Source=MABAPRRATFSD018\\DULFRAN;Initial Catalog=dbs_suscripcion;Integrated Security=True");
+        public SqlConnection connection = new SqlConnection("Data Source=YOYITO\\SQLEXPRESS01;Initial Catalog=dbs_suscripcion;Integrated Security=True");
     }
 }

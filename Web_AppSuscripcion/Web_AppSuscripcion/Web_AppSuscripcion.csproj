@@ -70,6 +70,7 @@
     <Content Include="estilos.css" />
     <Content Include="frm_Suscripcion.aspx" />
     <Content Include="frm_vista_suscripciones.aspx" />
+    <Content Include="imagenes\casa.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

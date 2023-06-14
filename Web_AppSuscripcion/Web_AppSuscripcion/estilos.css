@@ -7,8 +7,9 @@
     font-size:14px;
     height:35px;
 }
-.h1{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
 }
 .bton_consultar {
     margin-top: 10px;
@@ -40,16 +41,16 @@
     height: 41px;
 }
 
-    .botones:hover {
-        background-color: #4CAF50; /* Green */
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 14px;
-    }
+.botones:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
 
 .div2 {
     border: 2px solid gray;
-    height: 600px;
+    height: 500px;
     width: 600px;
 }
 
@@ -82,9 +83,9 @@
     font-size:12px;
     
 }
-    .botones_sus:hover {
-        background-color: mistyrose; /* Green */
-        color: black;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size:14px;
-    }
+.botones_sus:hover {
+    background-color: mistyrose; /* Green */
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:14px;
+}

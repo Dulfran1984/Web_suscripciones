@@ -11,10 +11,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <center><h1 class="h1">Mis suscripciones</h1></center>
+            <center><h1 class="h1">Mis suscripciones</h1>
+                <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/imagenes/casa.png" PostBackUrl="~/frm_Suscripcion.aspx" />
+                </center>
+            <br />
             <center>
             <div class ="div2">
-                <br /><br />
+                <br />
                 <asp:TextBox ID="txt_ID" runat="server" Width="200px" CssClass="cajas" placeholder="Ingrese su identificación"></asp:TextBox>
                 <asp:Button ID="btn_Consultar" runat="server" Text="Consultar" CssClass="bton_consultar" Width="152px"/>
                 <br />
