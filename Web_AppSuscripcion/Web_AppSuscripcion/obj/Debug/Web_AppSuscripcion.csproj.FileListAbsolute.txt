@@ -116,3 +116,7 @@ C:\Users\yoyit\OneDrive\Documentos\GitHub\Web_suscripciones\Web_AppSuscripcion\W
 C:\Users\yoyit\OneDrive\Documentos\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.csproj.CopyComplete
 C:\Users\yoyit\OneDrive\Documentos\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.dll
 C:\Users\yoyit\OneDrive\Documentos\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.pdb
+C:\Users\SENA\Documents\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.csproj.AssemblyReference.cache
+C:\Users\SENA\Documents\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.csproj.CoreCompileInputs.cache
+C:\Users\SENA\Documents\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.dll
+C:\Users\SENA\Documents\GitHub\Web_suscripciones\Web_AppSuscripcion\Web_AppSuscripcion\obj\Debug\Web_AppSuscripcion.pdb
