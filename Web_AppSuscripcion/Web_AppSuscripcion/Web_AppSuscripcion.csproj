@@ -74,6 +74,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cls_CargarPaquetes.cs" />
     <Compile Include="cls_Conexion.cs" />
     <Compile Include="cls_ConsultarSexo.cs" />
     <Compile Include="cls_Registrar.cs" />
