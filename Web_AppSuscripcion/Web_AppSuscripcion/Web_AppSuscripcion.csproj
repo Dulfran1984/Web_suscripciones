@@ -77,7 +77,9 @@
     <Compile Include="cls_CargarPaquetes.cs" />
     <Compile Include="cls_Conexion.cs" />
     <Compile Include="cls_ConsultarSexo.cs" />
+    <Compile Include="cls_ConsultarSuscrip.cs" />
     <Compile Include="cls_Registrar.cs" />
+    <Compile Include="cls_RegistrarSuscripcion.cs" />
     <Compile Include="frm_Suscripcion.aspx.cs">
       <DependentUpon>frm_Suscripcion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
