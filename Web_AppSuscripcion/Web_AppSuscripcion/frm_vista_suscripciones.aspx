@@ -30,7 +30,7 @@
                 <br />
                 <hr />
                 <br />
-                <asp:GridView ID="dtg_suscripciones" runat="server" Width="550px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical">
+                <asp:GridView ID="dtg_suscripciones" runat="server" Width="750px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical" CssClass="grid">
                     <AlternatingRowStyle BackColor="White" />
                     <FooterStyle BackColor="#CCCC99" />
                     <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />

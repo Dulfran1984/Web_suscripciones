@@ -28,6 +28,7 @@ namespace Web_AppSuscripcion
             obj_Suscripciones.fnt_cargarsuscripciones(id);
             dtg_suscripciones.DataSource = obj_Suscripciones.getSuscripciones();
             dtg_suscripciones.DataBind();
+            lbl_Mensaje.Text = obj_Suscripciones.getMensaje();
         }
         protected void btn_Consultar_Click(object sender, EventArgs e)
         {
