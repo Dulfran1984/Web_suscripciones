@@ -18,17 +18,19 @@
             <center>
             <div class ="div2">
                 <br />
+                <asp:Label ID="lbl_Mensaje" runat="server" Text="" CssClass="label"></asp:Label>
+                <br />
                 <asp:TextBox ID="txt_ID" runat="server" Width="200px" CssClass="cajas" placeholder="Ingrese su identificación"></asp:TextBox>
-                <asp:Button ID="btn_Consultar" runat="server" Text="Consultar" CssClass="bton_consultar" Width="152px"/>
+                <asp:Button ID="btn_Consultar" runat="server" Text="Consultar" CssClass="bton_consultar" Width="152px" OnClick="btn_Consultar_Click" />
                 <br />
                 <asp:DropDownList ID="cbx_paquetes" runat="server" CssClass="combo">
                 </asp:DropDownList>
                 <br />
-                <asp:Button ID="btn_registrarPaquete" runat="server" Text="Registrar suscripción" CssClass="botones" Height="34" Width="363" />
+                <asp:Button ID="btn_registrarPaquete" runat="server" Text="Registrar suscripción" CssClass="botones" Height="34" Width="363" OnClick="btn_registrarPaquete_Click" />
                 <br />
                 <hr />
                 <br />
-                <asp:GridView ID="dtg_suscripciones" runat="server" Width="550px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical">
+                <asp:GridView ID="dtg_suscripciones" runat="server" Width="750px" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical" CssClass="grid">
                     <AlternatingRowStyle BackColor="White" />
                     <FooterStyle BackColor="#CCCC99" />
                     <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />

@@ -24,13 +24,22 @@ namespace Web_AppSuscripcion
         }
         private void fnt_ConsultarSuscripciones(string id)
         {
-            cls_ConsultarSuscripciones obj_Suscripciones = new cls_ConsultarSuscripciones();
+            cls_ConsultarSuscrip obj_Suscripciones = new cls_ConsultarSuscrip();
             obj_Suscripciones.fnt_cargarsuscripciones(id);
             dtg_suscripciones.DataSource = obj_Suscripciones.getSuscripciones();
             dtg_suscripciones.DataBind();
+            lbl_Mensaje.Text = obj_Suscripciones.getMensaje();
         }
         protected void btn_Consultar_Click(object sender, EventArgs e)
         {
+            fnt_ConsultarSuscripciones(txt_ID.Text);
+        }
+
+        protected void btn_registrarPaquete_Click(object sender, EventArgs e)
+        {
+            cls_RegistrarSuscripcion obj_RegistrarSus = new cls_RegistrarSuscripcion();
+            obj_RegistrarSus.fnt_Registrar(txt_ID.Text, Convert.ToString(cbx_paquetes.SelectedValue));
+            lbl_Mensaje.Text = obj_RegistrarSus.getMensaje();
             fnt_ConsultarSuscripciones(txt_ID.Text);
         }
     }
